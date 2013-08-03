@@ -9,3 +9,8 @@ for file in ${files[@]}; do
  echo "Creating symlink for $file"
  ln -s $dir/$file ~/.$file
 done
+
+
+if [ ! -d "$dir/vim/bundle/vundle/autoload" ]; then
+    git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+fi
