@@ -13,4 +13,5 @@ done
 
 if [ ! -d "$dir/vim/bundle/vundle/autoload" ]; then
     git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+    vim +BundleInstall +qall
 fi
