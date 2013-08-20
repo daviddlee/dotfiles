@@ -1,7 +1,7 @@
 #!/bin/bash
 
 dir=~/dotfiles
-files=(vim vimrc)
+files=(bash_profile vim vimrc)
 
 cd $dir
 for file in ${files[@]}; do
