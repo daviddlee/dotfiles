@@ -27,4 +27,3 @@ nmap <C-k> <C-w><Up>
 nmap <C-j> <C-w><Down>
 nmap <C-l> <C-w><Right>
 nmap <C-h> <C-w><Left>
-

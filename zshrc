@@ -1,7 +1,7 @@
 alias cls="clear && ls"
-alias rf="source ~/.bash_profile"
+alias rf="source ~/.zshrc"
 alias vr="vim ~/dotfiles/vimrc"
-alias bp="vim ~/dotfiles/bash_profile"
+alias bp="vim ~/dotfiles/zshrc"
 alias dot="cd ~/dotfiles"
 alias sampapp="cd ~/rails_projects/sample_app"
 
